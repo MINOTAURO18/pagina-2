@@ -42,7 +42,7 @@ p{
 }
 
 
-
+    
 .nav-menu{
     background-color: var(--color-secundario);
     width:100%;
@@ -259,6 +259,58 @@ width: 100%;
 height: 70%;
 display: flex;
 align-items: flex-end;
+}
+
+@media (max-width:450px){
+   
+    .section-one{
+        width: 100%;
+        height:90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-portada{
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.section-two{
+    height: auto;
+}
+
+.habilidades{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logos{
+    margin-bottom: 50px;
+}
+
+.section-three{
+    height: auto;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    margin-bottom: 50px;
+}
+
+    
 }
 
 
