@@ -57,6 +57,7 @@ p{
 }
 
 .hola:hover{
+    color: rgba(255, 255, 255, .6);
     transform: translateY(-3%);
     -webkit-transform: translateY(-3%);
     -moz-transform: translateY(-3%);
@@ -495,6 +496,10 @@ margin-bottom: 30px;
       color: var(--color-title);
       text-decoration: none;
       font-size:22px;
+    }
+
+    a:hover{
+        text-decoration: underline;
     }
 
     .mobile{
