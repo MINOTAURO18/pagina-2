@@ -33,6 +33,7 @@ img{
 
 h1{
     color:var(--color-title);
+    cursor:default;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -45,12 +46,25 @@ p{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
+    cursor:default;
+
     
 }
 
 .hola{
     color: var(--color-parrafos);
+    transition: all 400ms ease;
 }
+
+.hola:hover{
+    transform: translateY(-3%);
+    -webkit-transform: translateY(-3%);
+    -moz-transform: translateY(-3%);
+    -ms-transform: translateY(-3%);
+    -o-transform: translateY(-3%);
+}
+
+
 
 hr{
     border-color:var(--color-secundario);
@@ -130,7 +144,17 @@ span{
     width: 250px;
     height:270px;
     margin-bottom: 10px;
+    transition: all 400ms ease;
 }
+
+.logos:hover{
+    transform: translateY(-2%);
+    -webkit-transform: translateY(-2%);
+    -moz-transform: translateY(-2%);
+    -ms-transform: translateY(-2%);
+    -o-transform: translateY(-2%);
+}
+
 .img-logo{
     width: 70%;
     height: 50%;
@@ -176,11 +200,11 @@ span{
 
 .card-container:hover{
     box-shadow: 7px 7px 20px rgba(0,0,0,0.8);
-    transform: translateY(-1%);
-    -webkit-transform: translateY(-1%);
-    -moz-transform: translateY(-1%);
-    -ms-transform: translateY(-1%);
-    -o-transform: translateY(-1%);
+    transform: translateY(-3%);
+    -webkit-transform: translateY(-3%);
+    -moz-transform: translateY(-3%);
+    -ms-transform: translateY(-3%);
+    -o-transform: translateY(-3%);
 }
 
 .img-card{
@@ -329,11 +353,23 @@ margin-bottom: 30px;
    
    }
    
+   
+
    .logos{
-       width: 250px;
-       height:300px;
-       margin-bottom: 30px;
-   }
+    width: 250px;
+    height:300px;
+    margin-bottom: 30px;
+    transition: all 400ms ease;
+}
+
+.logos:hover{
+    transform: translateY(-2%);
+    -webkit-transform: translateY(-2%);
+    -moz-transform: translateY(-2%);
+    -ms-transform: translateY(-2%);
+    -o-transform: translateY(-2%);
+}
+
    .img-logo{
        width: 70%;
        height: 50%;
@@ -522,6 +558,21 @@ margin-bottom: 30px;
         top: 10vh;
 
     }
+
+    .logos{
+        width: 250px;
+        height:300px;
+        margin-bottom: 30px;
+        transition: all 400ms ease;
+    }
+    
+    .logos:hover{
+        transform: translateY(-2%);
+        -webkit-transform: translateY(-2%);
+        -moz-transform: translateY(-2%);
+        -ms-transform: translateY(-2%);
+        -o-transform: translateY(-2%);
+}
 
     .habilidades{
         width: 70%;
