@@ -489,7 +489,7 @@ margin-bottom: 30px;
    }
 }
 
-@media (min-width: 950px){
+@media (min-width: 1050px){
 
     a{
       color: var(--color-title);
