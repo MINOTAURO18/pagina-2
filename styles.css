@@ -173,6 +173,7 @@ span{
 }
 
 .section-three{
+    background-color: var(--color-primario);
     width: 100%;
     height: auto;
 }
@@ -339,6 +340,7 @@ margin-bottom: 30px;
 }
    
    .section-two{
+       background-color: var(--color-secundario);
        width: 100%;
        height: auto;
        display: flex;
@@ -390,6 +392,7 @@ margin-bottom: 30px;
    }
    
    .section-three{
+    background-color: var(--color-primario);
        width: 100%;
        height: auto;
    }
@@ -499,8 +502,8 @@ margin-bottom: 30px;
     }
 
     a:hover{
-        text-decoration: underline;
-    }
+        text-decoration: overline;
+}
 
     .mobile{
         display: none;
