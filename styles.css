@@ -557,6 +557,11 @@ margin-bottom: 30px;
         text-align: center;
     }
 
+    .img-portada{
+        width: 450px;
+        height: 450px;
+    }
+
 
     .section-two{
         background-color: var(--color-secundario);
