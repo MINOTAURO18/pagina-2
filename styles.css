@@ -553,9 +553,9 @@ margin-bottom: 30px;
     .section-one{
         clip-path: polygon(0 0,100% 0,100% 90%, 50% 100%, 0 90%);
         width: 100%;
-        height: 90vh;
-        position: relative;
-        top: 10vh;
+        height: 100vh;
+        /* position: relative;
+        top: 10vh; */
         display:grid;
         grid-template-columns: 50% 50%;
         place-items: center;
