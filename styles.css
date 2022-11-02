@@ -84,8 +84,36 @@ span{
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(91deg) brightness(101%) contrast(106%);
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(20px);
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
 
-@media (max-width: 600px){    
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all .5s ease;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+
+
+@media (max-width: 600px){ 
+    
+    
+    
 
  .logo, .pc{
     display: none;
