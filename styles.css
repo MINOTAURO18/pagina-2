@@ -5,7 +5,7 @@
 html{
     font-family: 'Roboto Slab', serif;
     scroll-behavior: smooth;
-    background-color:var(--color-secundario);
+    background-color:var(--color-primario);
     font-family: 'Bebas Neue', cursive;
 font-family: 'Covered By Your Grace', cursive;
 font-family: 'Roboto Slab', serif;
@@ -165,6 +165,29 @@ span{
     -o-border-radius: 10px;
 }
 
+.sobre-mi{
+    width: 85%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 15vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafo-profile, .img-sobremi{
+    margin: 20px 0px;
+}
+
+.parrafo-profile p{
+    text-align: justify;
+}
+
+.img-sobremi img{
+  width: 200px;
+  height: 200px;
+}
+
 .section-two{
     width: 100%;
     height: auto;
@@ -283,6 +306,8 @@ span{
 }
 
 .pie-pagina{
+    padding: 20px 0 0 0;
+    background-color: var(--color-secundario);
     width: 100%;
     height: auto;
 }
@@ -315,7 +340,7 @@ margin-bottom: 30px;
 
 }
 
-@media (min-width:601px){
+@media (min-width: 601px){
 
     .logo, .pc{
         display: none;
@@ -380,6 +405,29 @@ margin-bottom: 30px;
        -o-border-radius: 10px;
 }
    
+.sobre-mi{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 15vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafo-profile, .img-sobremi{
+    margin: 20px 0px;
+}
+
+.parrafo-profile p{
+    text-align: justify;
+}
+
+.img-sobremi img{
+  width: 200px;
+  height: 200px;
+}
+
    .section-two{
        background-color: var(--color-secundario);
        width: 100%;
@@ -505,9 +553,12 @@ margin-bottom: 30px;
    }
    
    .pie-pagina{
+    background-color: var(--color-secundario);
        width: 100%;
        height: auto;
-   }
+    padding: 20px 0 0 0;
+
+}
    
    .mensaje{
        width: 100%;
@@ -608,13 +659,14 @@ margin-bottom: 30px;
         height: 450px;
     }
 
-    .sobre-mi{
-        width: 65%;
+    .sobre-mi{ 
+        background-color: var(--color-primario);
+        width: 100%;
         height: 100vh;
         margin: 0 auto;
-        padding: 15vh 0;
-        display: flex;
-        align-items: center;
+        padding: 15vh 18vw;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .parrafo-profile, .img-sobremi{
@@ -705,7 +757,9 @@ margin-bottom: 30px;
     }
 
    .pie-pagina{
+    background-color: var(--color-secundario);
     width: 100%;
+    padding: 20px 0 0 0;
     height: auto;
     position: relative;
     top: 10vh;
