@@ -86,12 +86,12 @@ span{
 
 .reveal{
     position: relative;
-    transform: translateY(20px);
+    transform: translateY(10px);
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    -moz-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
 }
 
 .reveal.active{
@@ -394,7 +394,6 @@ margin-bottom: 30px;
     margin: 0 auto;
     display: grid;
     grid-template-columns:50% 50%;
-   
    }
    
    
@@ -443,6 +442,7 @@ margin-bottom: 30px;
        height: 100%;
        display: grid;
        grid-template-columns: 50% 50%;
+       gap: 60px 0;
    }
    
    .card-container{
@@ -608,11 +608,34 @@ margin-bottom: 30px;
         height: 450px;
     }
 
+    .sobre-mi{
+        width: 65%;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 15vh 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .parrafo-profile, .img-sobremi{
+        margin: 0 20px;
+    }
+
+    .parrafo-profile p{
+        text-align: justify;
+    }
+
+    .img-sobremi img{
+      width: 250px;
+      height: 250px;
+    }
+
 
     .section-two{
         background-color: var(--color-secundario);
         width: 100%;
         height: auto;
+        padding: 15vh 0;
         margin: 0 auto;
         position: relative;
         top: 10vh;
@@ -651,7 +674,7 @@ margin-bottom: 30px;
         height:auto;
         position: relative;
         top: 10vh;
-        padding: 30px 0 60px 0;
+        padding: 15vh 0;
     }
 
     .cards{
